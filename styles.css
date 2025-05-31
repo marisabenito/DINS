@@ -564,6 +564,8 @@
       }
       .presentacion-img {
         align-items: center;
+          width: 95vw;
+        max-width: 320px;
       }
     }
     @media (max-width: 950px) {
@@ -574,8 +576,10 @@
       }
       .phone-mockup {
         justify-content: center;
+        
       }
       .info-content {
+        
         align-items: center;
         text-align: center;
         padding-left: 0;
@@ -601,6 +605,7 @@
         font-size: 8vw;
       }
       .presentacion-content {
+        justify-content: center;
         padding: 0 10px;
       }
       .presentacion-text, .presentacion-img {
@@ -628,6 +633,7 @@
       .phone-mockup img {
         width: 95vw;
         max-width: 320px;
+       
       }
       .info-content h2 {
         font-size: 1.3em;
